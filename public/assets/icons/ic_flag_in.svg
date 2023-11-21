@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="600" width="900">
+  <!-- Saffron color for the top stripe -->
+  <rect width="900" height="200" fill="#FF9933" />
+
+  <!-- White color for the middle stripe -->
+  <rect y="200" width="900" height="200" fill="#FFFFFF" />
+
+  <!-- Green color for the bottom stripe -->
+  <rect y="400" width="900" height="200" fill="#138808" />
+
+  <!-- Ashoka Chakra (Navy Blue) -->
+  <circle cx="450" cy="300" r="75" fill="#000080" />
+
+  <!-- 24 spokes in the Ashoka Chakra -->
+  <g fill="#FFFFFF">
+    <!-- Loop to create 24 spokes -->
+    <!-- Each spoke is a rotated rectangle -->
+    <!-- Angle between spokes: 360 / 24 = 15 degrees -->
+    <rect x="442.5" y="50" width="15" height="150" transform="rotate(15 450 300)" />
+    <rect x="442.5" y="50" width="15" height="150" transform="rotate(30 450 300)" />
+    <rect x="442.5" y="50" width="15" height="150" transform="rotate(45 450 300)" />
+    <!-- ... Repeat for the remaining spokes ... -->
+  </g>
+</svg>
